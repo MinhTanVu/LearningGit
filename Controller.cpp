@@ -2,7 +2,8 @@
 #include "Display.h"
 
 int main() {
-    std::cout << "============= Main ===============" << std::endl;
+
+    std::cout << "============= MAIN 2 ================" << std::endl;
     Display display;
     Manager manager(1,"Khanh",3500.5);
     display.showManagerInfo(manager);
