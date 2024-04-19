@@ -2,7 +2,7 @@
 #include "Display.h"
 
 int main() {
-    std::cout << "============= MAIN 2 ================" << std::endl;
+    std::cout << "============= Tan Test ================" << std::endl;
     Display display;
     Manager manager(1,"Khanh",3500.5);
     display.showManagerInfo(manager);
