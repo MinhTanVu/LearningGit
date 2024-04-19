@@ -13,7 +13,10 @@ public:
     ~ManagerRepository();
 
     void addNewManager(Manager manager);
+
     std::vector<Manager> getManagerList();
+
+    void removeManager(int id);
 };
 
 
